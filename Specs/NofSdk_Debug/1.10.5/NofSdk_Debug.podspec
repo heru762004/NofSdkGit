@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   #s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "heru" => "heruprasetia@nets.com.sg" }
   s.source       = { :http => 'https://samplenof.firebaseapp.com/pod/1.10.5/nofsdk.debug.zip' }
-  ss.resources  = ["firmware", "profile", "signature", "vkeylicensepack"]
+  s.resources  = ["firmware", "profile", "signature", "vkeylicensepack"]
   s.vendored_frameworks  = "nofsdk.framework"
 end
