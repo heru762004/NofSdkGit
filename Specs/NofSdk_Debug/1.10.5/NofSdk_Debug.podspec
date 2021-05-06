@@ -17,10 +17,12 @@ Pod::Spec.new do |s|
   s.author             = { "heru" => "heruprasetia@nets.com.sg" }
   s.source       = { :http => 'https://samplenof.firebaseapp.com/pod/1.10.5/nofsdk.debug.zip' }
   s.subspec 'NETS' do |nets|
+    nets.vendored_frameworks  = "nofsdk.framework"
     nets.resources    = "Resources/NETS/**"
   end
   s.subspec 'Comfort' do |comfort|
+    comfort.vendored_frameworks  = "nofsdk.framework"
     comfort.resources    = "Resources/Comfort/**"
   end
-  s.vendored_frameworks  = "nofsdk.framework"
+
 end
