@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
     comfort.vendored_frameworks  = "nofsdk.framework"
     comfort.resources    = "Resources/Comfort/**"
   end
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
