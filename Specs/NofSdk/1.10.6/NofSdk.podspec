@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "NofSdk_Debug"
+  s.name         = "NofSdk"
   s.version      = "1.10.6"
   s.summary      = "NofSdk library to integrate with NetsClick merchant"
   s.description  = "NofSdk library to integrate with NetsClick merchant"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   #s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "heru" => "heruprasetia@nets.com.sg" }
-  s.source       = { :http => 'https://samplenof.firebaseapp.com/pod/1.10.6/nofsdk.debug.zip' }
+  s.source       = { :http => 'https://samplenof.firebaseapp.com/pod/1.10.6/nofsdk.release.zip' }
   s.subspec 'NETS' do |nets|
     nets.vendored_frameworks  = "nofsdk.framework"
     nets.resources    = "Resources/NETS/**"
