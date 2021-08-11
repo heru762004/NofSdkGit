@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "NofSdk"
-  s.version      = "1.10.6"
+  s.version      = "1.10.7"
   s.summary      = "NofSdk library to integrate with NetsClick merchant"
   s.description  = "NofSdk library to integrate with NetsClick merchant"
   s.homepage     = "https://api-developer.nets.com.sg/"
