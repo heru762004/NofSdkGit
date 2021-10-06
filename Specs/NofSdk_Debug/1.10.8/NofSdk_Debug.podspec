@@ -16,13 +16,6 @@ Pod::Spec.new do |s|
   #s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "heru" => "heruprasetia@nets.com.sg" }
   s.source       = { :http => 'https://samplenof.firebaseapp.com/pod/1.10.8/nofsdk.debug.zip' }
-  s.subspec 'NETS' do |nets|
-    nets.vendored_frameworks  = "nofsdk.framework"
-    #nets.resources    = "Resources/NETS/**"
-  end
-  s.subspec 'SPM' do |spm|
-    spm.vendored_frameworks  = "nofsdk.framework"
-    #spm.resources    = "Resources/SPM/**"
-  end
+  s.vendored_frameworks  = "nofsdk.framework"
   #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
